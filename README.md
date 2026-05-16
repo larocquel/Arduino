@@ -84,32 +84,27 @@ Each folder in this repository corresponds to a step in the progression plan bel
 ```
 arduino-2wd-robot/
 │
-├── phase1_basics/
-│   ├── step1_builtin_led/
-│   ├── step2_external_led/
-│   ├── step3_button_input/
-│   ├── step4_traffic_light/
-│   └── step5_interactive_traffic_light/
-│
-├── phase2_sensors/
-│   ├── step4_ultrasonic_sensor/
-│   └── step5_ir_sensor/
-│
-├── phase3_motors/
-│   ├── step6_l298n_intro/
-│   ├── step7_single_motor/
-│   └── step8_speed_control_pwm/
-│
-├── phase4_assembly/
-│   ├── step9_physical_assembly/   ← notes & photos
-│   ├── step10_wiring/             ← wiring diagram & notes
-│   └── step11_movement_blocks/
-│
-├── phase5_autonomy/
-│   ├── step12_obstacle_avoidance/
-│   └── step13_line_follower/
-│
-├── diagrams/                      ← wiring diagrams (Fritzing or images)
+├── 1_basics
+│   ├── 1_builtin_led
+│   ├── 2_external_led
+│   ├── 3_button_input
+│   ├── 4_traffic_light
+│   └── 5_interactive_traffic_light
+├── 2_sensors
+│   ├── 4_ultrasonic_sensor
+│   └── 5_ir_sensor
+├── 3_motors
+│   ├── 6_l298n_intro
+│   ├── 7_single_motor
+│   └── 8_speed_control_pwm
+├── 4_assembly
+│   ├── 10_wiring
+│   ├── 11_movement_blocks
+│   └── 9_physical_assembly
+├── 5_autonomy
+│   ├── 12_obstacle_avoidance
+│   └── 13_line_follower
+├── documents
 └── README.md
 ```
 
