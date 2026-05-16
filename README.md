@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://github.com/larocquel/Arduino/blob/fe871e484d31df125b23e78e442d746bb24b400c/documents/banner_arduino.png" alt="42 Projects Banner" width="100%" />
+</div>
+
+<br>
+
 # Arduino UNO R3: From Blink to Autonomous Car
 
 A structured, beginner-friendly learning journey to build and program a 2WD robot car using an Arduino UNO R3 starter kit. This repository documents every step of the progression — from blinking a single LED to building a fully autonomous obstacle-avoiding and line-following robot.
