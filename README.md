@@ -1,6 +1,6 @@
 # Arduino UNO R3 — 2WD Robot: From Blink to Autonomous Car
 
-A structured, beginner-friendly learning journey to build and program a 2WD robot car using an Arduino UNO R3 starter kit. This repository documents every step of the progression — from blinking LEDs to building a fully autonomous obstacle-avoiding / line-following robot.
+A structured, beginner-friendly learning journey to build and program a 2WD robot car using an Arduino UNO R3 starter kit. This repository documents every step of the progression — from blinking a single LED to building a fully autonomous obstacle-avoiding and line-following robot.
 
 > **Philosophy:** Before wheels spin, we learn how the Arduino "talks" to components. Each phase builds directly on the last, so no step is skipped.
 
@@ -39,7 +39,7 @@ A structured, beginner-friendly learning journey to build and program a 2WD robo
 
 ## About the Project
 
-This project is a personal learning log and codebase for building a 2WD robot car from scratch using an Arduino UNO R3 starter kit. It is aimed at absolute beginners who want a clear, step-by-step progression from electronics basics to robotics integration.
+This project is a personal learning log and codebase for building a 2WD robot car from scratch using an Arduino UNO R3 starter kit. It is aimed at absolute beginners who want a clear, step-by-step path — from understanding basic electronics to writing autonomous robot behavior.
 
 Each folder in this repository corresponds to a step in the progression plan below, containing the sketch (`.ino` file), any relevant wiring notes, and a short description of what was learned.
 
@@ -82,14 +82,34 @@ Each folder in this repository corresponds to a step in the progression plan bel
 ## Repository Structure
 
 ```
-UNO_R3/
+arduino-2wd-robot/
 │
-├── blinkled/
-│   └── blinkled.ino
+├── phase1_basics/
+│   ├── step1_builtin_led/
+│   ├── step2_external_led/
+│   ├── step3_button_input/
+│   ├── step4_traffic_light/
+│   └── step5_interactive_traffic_light/
 │
-├── helloworld/
-│   └── helloworld.ino
+├── phase2_sensors/
+│   ├── step4_ultrasonic_sensor/
+│   └── step5_ir_sensor/
 │
+├── phase3_motors/
+│   ├── step6_l298n_intro/
+│   ├── step7_single_motor/
+│   └── step8_speed_control_pwm/
+│
+├── phase4_assembly/
+│   ├── step9_physical_assembly/   ← notes & photos
+│   ├── step10_wiring/             ← wiring diagram & notes
+│   └── step11_movement_blocks/
+│
+├── phase5_autonomy/
+│   ├── step12_obstacle_avoidance/
+│   └── step13_line_follower/
+│
+├── diagrams/                      ← wiring diagrams (Fritzing or images)
 └── README.md
 ```
 
@@ -121,7 +141,7 @@ UNO_R3/
 
 #### Step 3 — Digital Input (Push Button)
 
-**Goal:** Instead of the Arduino only *sending* power (Output), teach it to *read* power (Input). Use a button to toggle an LED on and off. Introduction to the **Serial Monitor** — the Arduino can "talk back" to you.
+**Goal:** Instead of the Arduino only *sending* power (Output), teach it to *read* power (Input). Use a button to toggle an LED on and off. Introduction to the **Serial Monitor** — the Arduino sends text messages back to the computer screen.
 
 **Concepts:** `INPUT_PULLUP`, `digitalRead()`, `Serial.begin()`, `Serial.println()`
 
