@@ -140,7 +140,7 @@ arduino-2wd-robot/
 
 ---
 
-#### Step 3 — Digital Input (Push Button)
+#### Step 3.0 — Digital Input (Push Button)
 
 **Goal:** Instead of the Arduino only *sending* power (Output), teach it to *read* power (Input). Use a button to toggle an LED on and off. Introduction to the **Serial Monitor** — the Arduino sends text messages back to the computer screen.
 
