@@ -148,7 +148,7 @@ arduino-2wd-robot/
 
 ---
 
-#### Step 4 — Traffic Light (Multiple LEDs)
+#### Step 3.1 — Traffic Light (Multiple LEDs)
 
 **Goal:** Connect Red, Yellow, and Green LEDs (each with its own resistor) and program the timed traffic light sequence: Green on → wait → off; Yellow on → wait → off; Red on → wait → off.
 
@@ -156,7 +156,7 @@ arduino-2wd-robot/
 
 ---
 
-#### Step 5 — Interactive Traffic Light
+#### Step 3.2 — Interactive Traffic Light
 
 **Goal:** Combine Steps 3 and 4. The light stays green for cars, but when someone presses the button, the code triggers the yellow → red sequence so pedestrians can cross.
 
